@@ -19,7 +19,7 @@ class Onboarding extends PureComponent {
     super(props)
 
     this.state = {
-      visible: true,
+      visible: false,
       currentStep: 0
     }
   }
