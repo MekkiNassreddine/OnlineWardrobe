@@ -7,8 +7,9 @@ import Subscriptions from '../../modules/user/Subscriptions'
 // User routes
 export default {
   login: {
-    path: '/user/login',
-    component: Login
+    path: '/',
+    component: Login,
+    exact: true
   },
 
   signup: {

@@ -8,11 +8,7 @@ import Onboarding from '../../modules/pages/Onboarding'
 
 // Home routes
 export default {
-  home: {
-    path: '/',
-    component: Home,
-    exact: true
-  },
+
 
   men: {
     path: '/men',
